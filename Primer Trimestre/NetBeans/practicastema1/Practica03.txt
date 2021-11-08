@@ -1,0 +1,12 @@
+Práctica03:
+
+ Determinar qué tipo de datos es más apropiado en cada caso para guardar la siguiente información:
+ 
+ 1.- Si un empleado está casado o no. (boolean)
+ 2.- 999999. (int)
+ 3.- Día de la semana (byte)
+ 4.- Día del año. (short)
+ 5.- Sexo: con dos valores posibles 'V' o 'M' (char)
+ 6.- Milisegundos transcurridos desde el 01/01/1970 hasta nuestros días. (long)
+ 7.- Almacenar el total de una factura (long)
+ 8.- Población mundial del planeta tierra. (int)

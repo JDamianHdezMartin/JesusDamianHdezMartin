@@ -1,0 +1,6 @@
+Práctica04:
+
+ Introducir en un código java de NetBeans la siguiente línea:
+ long variable = 123400000000;
+
+- Dice que el número es demasiado grande.

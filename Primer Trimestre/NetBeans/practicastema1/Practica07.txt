@@ -1,0 +1,5 @@
+Práctica07:
+
+ Introduce (final int MAXIMO = 23; MAXIMO = 12;) en NetBeans, que pasa?
+
+- El IDE nos dice que no podemos volver a definir una variable ya definida.

@@ -1,0 +1,18 @@
+Práctica09:
+
+ Sea: a, b enteros; c,d reales; e,f carácter;  g de tipo lógico. 
+ ¿Qué asignaciones son válidas y cuáles no?.
+ Justifica por qué no.
+ 
+ a) a = 20;       Si
+ b) b = 5500;     Si
+ c) e = ‘f’;      Si
+ d) g = true;     Si
+ f) b = 12;       Si
+ g) c = 0;        Si
+ h) e = f;        No, le faltan las comillas simples ‘’
+ i) g = “false”;  No, no es necesario usar comillas
+ j) f = ‘0’;      Si
+ k) d = c         No, no es un número
+ l) a = 12.56;    No, ya que tiene que ser entero
+ m) f = g;        No, le faltan las comillas

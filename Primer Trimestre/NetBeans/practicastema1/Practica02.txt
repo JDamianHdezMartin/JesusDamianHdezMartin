@@ -1,0 +1,15 @@
+Práctica02:
+
+ Dados los siguientes identificadores, indicar si son válidos o no. 
+ Justificar las respuestas. Si algún caso son válidos pero no son recomendables por algún motivo detallarlo
+
+- mi variable       No puede contener espacios
+- num_de_cte        Es válido
+- ____programa      Si, pero no se recomienda que empiece con _
+- 3tema             No puede empezar con números
+- cierto?           No puede contener carácteres especiales
+- númerodeCliente   Si, pero mejor no usar la tilde
+- jose~             No puede contener símbolos que sean operadores
+- año               No debe contener carácteres de teclados específicos
+- PI                Es válido
+- int               No, ya que es una de las palabras reservadas
