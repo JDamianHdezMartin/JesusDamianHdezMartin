@@ -7,7 +7,7 @@ package telegramapoo;
 
 /**
  *
- * @author alumno
+ * @author JDamián
  */
 public class Telegrama{
     //atributos

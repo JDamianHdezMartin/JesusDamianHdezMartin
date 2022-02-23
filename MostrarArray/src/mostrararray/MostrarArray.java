@@ -7,7 +7,7 @@ package mostrararray;
 
 /**
  *
- * @author alumno
+ * @author JDamián
  */
 public class MostrarArray {
 public static void mostrarArray(int arr[][]) {

@@ -7,7 +7,7 @@ package numaleatorio;
 
 /**
  *
- * @author alumno
+ * @author JDamián
  */
 public class NumAleatorio {
 

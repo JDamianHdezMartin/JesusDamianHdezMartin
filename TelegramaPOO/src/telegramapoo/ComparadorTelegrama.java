@@ -9,7 +9,7 @@ import java.util.Comparator;
 
 /**
  *
- * @author alumno
+ * @author JDamián
  */
 public class ComparadorTelegrama implements Comparator<Telegrama> {
     
