@@ -10,7 +10,7 @@ import java.util.ArrayList;
  *
  * @author alumno
  */
-public class Almacen implements Interfaz{
+public class Almacen implements Pesable{
     double capacidad;
     double precioHoraKilogramos;
     Integer identificador;
@@ -55,13 +55,7 @@ public class Almacen implements Interfaz{
     }
 
     @Override
-    public void guardar(Pesable producto) {
-        producto.getPeso();
-        
-    }
-
-    @Override
-    public void pagar(Almacen identificador, Almacen dineroPagarAlquiler) {
+    public double getPeso() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
