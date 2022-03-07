@@ -22,13 +22,56 @@ public class ObjetoEnvio implements Empaquetable {
         this.altoPaquete = altoPaquete;
     }   
 
+    public int getIdPaquete() {
+        return idPaquete;
+    }
+
+    public void setIdPaquete(int idPaquete) {
+        this.idPaquete = idPaquete;
+    }
+
+    public double getAnchoPaquete() {
+        return anchoPaquete;
+    }
+
+    public void setAnchoPaquete(double anchoPaquete) {
+        this.anchoPaquete = anchoPaquete;
+    }
+
+    public double getProfundidadPaquete() {
+        return profundidadPaquete;
+    }
+
+    public void setProfundidadPaquete(double profundidadPaquete) {
+        this.profundidadPaquete = profundidadPaquete;
+    }
+
+    public double getAltoPaquete() {
+        return altoPaquete;
+    }
+
+    public void setAltoPaquete(double altoPaquete) {
+        this.altoPaquete = altoPaquete;
+    }
+    
+    
+    
     @Override
     public boolean esTransportable() {
-        //falta arreglar este desastre de if...
-        if (!anchoPaquete = 1.5),(!profundidadPaquete= 1.0),(!altoPaquete=1.2){
+        if (anchoPaquete > 1.5){
+            System.out.println("El paquete es demasiado ancho");
             return false;
-        }else(){
-        return true;
-        
+        }else{
+            if (altoPaquete> 1.2) {
+                System.out.println("El paquete es demasiado alto");
+                return false;
+            }else{
+                if (profundidadPaquete>1.0) {
+                    System.out.println("El paquete es demasiado largo");
+                    return false;
+                }else{
+                    return true;
+                }
+            }
     }
 }}
