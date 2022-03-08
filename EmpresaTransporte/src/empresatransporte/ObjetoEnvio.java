@@ -70,8 +70,20 @@ public class ObjetoEnvio implements Empaquetable {
                     System.out.println("El paquete es demasiado largo");
                     return false;
                 }else{
+                    System.out.println("El paquete es transportable");
                     return true;
                 }
             }
     }
-}}
+}
+    public String destinos(String origen[], String destino[], int coste){
+        //aquí debería asociar los lugares de origen con los lugares de destino
+        //no sé con qué estructura hacerlo para que haya correlación entre origen
+        //y destino
+        
+        
+        return null;
+    
+    }
+    
+}
