@@ -90,6 +90,46 @@ public class AlumnoLambda {
         
         
         //1) Mostrar el salario más alto de los profesores
+        array.stream()
+                .filter(p->p instanceof Profesor)
+                .map(p->(Profesor)p)
+                .max(Profesor pro1, Profesor pro2)-> pro1.
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         System.out.println("\n\nEl salario más alto entre los profesores es:");
         array.stream()
                 .filter(persona-> persona instanceof Profesor)
