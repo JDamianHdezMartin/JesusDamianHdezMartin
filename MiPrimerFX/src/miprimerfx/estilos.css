@@ -1,0 +1,20 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-mar-2022, 17:14:33
+    Author     : daw
+*/
+
+.button{
+    -fx-border-color: #6633ff;
+    -fx-border-radius: 20%;
+    
+    
+}
+
+#lienzo{
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 200%, repeat, #F1EEEE 0%, #CAB7A0 50%);
+}
