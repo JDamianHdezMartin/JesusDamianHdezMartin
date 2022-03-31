@@ -5,8 +5,10 @@
  */
 package pratica54;
 
-import java.util.ArrayList;
-
 /**
  *
  * @author daw
+ */
+class personas {
+    
+}

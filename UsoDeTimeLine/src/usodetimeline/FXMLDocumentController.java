@@ -53,14 +53,14 @@ public class FXMLDocumentController implements Initializable {
         posCirculoX += pasoX;
         posCirculoY += pasoY;
         
-        if( posCirculoX > panel.getWidth()){
+        if( posCirculoX > panel.getWidth()-20){
             pasoX *= -1;}
 
         if (posCirculoX < 0) {
             pasoX *= -1;
 
         }
-        if( posCirculoY > panel.getHeight()){
+        if( posCirculoY > panel.getHeight()-20){
             pasoY *= -1;}
 
         if (posCirculoY < 0) {
@@ -71,7 +71,7 @@ public class FXMLDocumentController implements Initializable {
         circulo.setCenterY(posCirculoY);
         }
     
-    }
+    
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -89,5 +89,4 @@ public class FXMLDocumentController implements Initializable {
         
         iniciado = !iniciado;
     }
-    
 }
