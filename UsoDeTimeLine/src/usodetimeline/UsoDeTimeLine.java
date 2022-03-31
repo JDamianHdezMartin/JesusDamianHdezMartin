@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package lista.model;
+package usodetimeline;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -13,13 +13,13 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author JDamian
+ * @author carlos
  */
-public class ListaTexto1 extends Application {
+public class UsoDeTimeLine extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/lista/view/FXMLDocument.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
         
         Scene scene = new Scene(root);
         

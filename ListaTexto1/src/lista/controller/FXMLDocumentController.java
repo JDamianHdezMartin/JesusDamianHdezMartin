@@ -14,10 +14,11 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
 
 /**
  *
- * @author daw
+ * @author JDamian
  */
 public class FXMLDocumentController implements Initializable {
     
@@ -38,6 +39,12 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private void guardar(ActionEvent event) {
         listView.getItems().add(txtField.getText());
+    }
+
+    @FXML
+    private void editar(MouseEvent event) {
+        String textoseleccionado = listView.getSelectionModel().getSelectedItem();
+        txtField;
     }
     
 }

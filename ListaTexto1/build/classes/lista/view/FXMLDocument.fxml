@@ -6,9 +6,9 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="575.0" prefWidth="528.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="lista.controller.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="575.0" prefWidth="528.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lista.controller.FXMLDocumentController">
     <children>
-      <ListView fx:id="listView" layoutX="22.0" layoutY="52.0" prefHeight="357.0" prefWidth="277.0" />
+      <ListView fx:id="listView" layoutX="22.0" layoutY="52.0" onMouseClicked="#editar" prefHeight="357.0" prefWidth="277.0" />
       <TextField fx:id="txtField" layoutX="320.0" layoutY="89.0" />
       <Label layoutX="346.0" layoutY="44.0" text="Introduce tu texto" />
       <Button fx:id="buttonGuardar" layoutX="370.0" layoutY="139.0" mnemonicParsing="false" onAction="#guardar" text="Guardar" />
