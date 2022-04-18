@@ -44,7 +44,7 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private void editar(MouseEvent event) {
         String textoseleccionado = listView.getSelectionModel().getSelectedItem();
-        txtField;
+        
     }
     
 }
