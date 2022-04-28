@@ -31,6 +31,7 @@ public class Vista extends javax.swing.JPanel {
         TxtUsuario = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
         BotonIniciarSesion = new javax.swing.JButton();
+        jToolBar1 = new javax.swing.JToolBar();
 
         Password.setText("jPasswordField1");
         Password.addActionListener(new java.awt.event.ActionListener() {
@@ -59,6 +60,8 @@ public class Vista extends javax.swing.JPanel {
             }
         });
 
+        jToolBar1.setRollover(true);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
@@ -75,11 +78,15 @@ public class Vista extends javax.swing.JPanel {
                         .addGap(73, 73, 73)
                         .addComponent(BotonIniciarSesion, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(69, Short.MAX_VALUE))
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jToolBar1, javax.swing.GroupLayout.PREFERRED_SIZE, 168, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(74, Short.MAX_VALUE)
+                .addComponent(jToolBar1, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 49, Short.MAX_VALUE)
                 .addComponent(jLabel2)
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -113,5 +120,6 @@ public class Vista extends javax.swing.JPanel {
     private javax.swing.JTextField TxtUsuario;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JToolBar jToolBar1;
     // End of variables declaration//GEN-END:variables
 }
